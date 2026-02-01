@@ -1,0 +1,66 @@
+Time resolution is 1 ps
+Starte Simulation...
+Reset deaktiviert @ time 90000
+
+--- Prüfe Frame für                      Test1_0xA5 (0xa5) @ time 530000 ---
+OK: Bit 0 fuer                      Test1_0xA5: tx=0 @ time 751000
+OK: Bit 1 fuer                      Test1_0xA5: tx=1 @ time 1071000
+OK: Bit 2 fuer                      Test1_0xA5: tx=0 @ time 1391000
+OK: Bit 3 fuer                      Test1_0xA5: tx=1 @ time 1711000
+OK: Bit 4 fuer                      Test1_0xA5: tx=0 @ time 2031000
+OK: Bit 5 fuer                      Test1_0xA5: tx=0 @ time 2351000
+OK: Bit 6 fuer                      Test1_0xA5: tx=1 @ time 2671000
+OK: Bit 7 fuer                      Test1_0xA5: tx=0 @ time 2991000
+OK: Bit 8 fuer                      Test1_0xA5: tx=1 @ time 3311000
+OK: Bit 9 fuer                      Test1_0xA5: tx=1 @ time 3631000
+
+--- Prüfe Frame für                      Test2_0x00 (0x0) @ time 3770000 ---
+OK: Bit 0 fuer                      Test2_0x00: tx=0 @ time 3951000
+OK: Bit 1 fuer                      Test2_0x00: tx=0 @ time 4271000
+OK: Bit 2 fuer                      Test2_0x00: tx=0 @ time 4591000
+OK: Bit 3 fuer                      Test2_0x00: tx=0 @ time 4911000
+OK: Bit 4 fuer                      Test2_0x00: tx=0 @ time 5231000
+OK: Bit 5 fuer                      Test2_0x00: tx=0 @ time 5551000
+OK: Bit 6 fuer                      Test2_0x00: tx=0 @ time 5871000
+OK: Bit 7 fuer                      Test2_0x00: tx=0 @ time 6191000
+OK: Bit 8 fuer                      Test2_0x00: tx=0 @ time 6511000
+OK: Bit 9 fuer                      Test2_0x00: tx=1 @ time 6831000
+
+--- Prüfe Frame für                      Test3_0xFF (0xff) @ time 6970000 ---
+OK: Bit 0 fuer                      Test3_0xFF: tx=0 @ time 7151000
+OK: Bit 1 fuer                      Test3_0xFF: tx=1 @ time 7471000
+OK: Bit 2 fuer                      Test3_0xFF: tx=1 @ time 7791000
+OK: Bit 3 fuer                      Test3_0xFF: tx=1 @ time 8111000
+OK: Bit 4 fuer                      Test3_0xFF: tx=1 @ time 8431000
+OK: Bit 5 fuer                      Test3_0xFF: tx=1 @ time 8751000
+OK: Bit 6 fuer                      Test3_0xFF: tx=1 @ time 9071000
+OK: Bit 7 fuer                      Test3_0xFF: tx=1 @ time 9391000
+OK: Bit 8 fuer                      Test3_0xFF: tx=1 @ time 9711000
+OK: Bit 9 fuer                      Test3_0xFF: tx=1 @ time 10031000
+
+--- Prüfe Frame für                      Test4_0x55 (0x55) @ time 10170000 ---
+OK: Bit 0 fuer                      Test4_0x55: tx=0 @ time 10351000
+OK: Bit 1 fuer                      Test4_0x55: tx=1 @ time 10671000
+OK: Bit 2 fuer                      Test4_0x55: tx=0 @ time 10991000
+OK: Bit 3 fuer                      Test4_0x55: tx=1 @ time 11311000
+OK: Bit 4 fuer                      Test4_0x55: tx=0 @ time 11631000
+OK: Bit 5 fuer                      Test4_0x55: tx=1 @ time 11951000
+OK: Bit 6 fuer                      Test4_0x55: tx=0 @ time 12271000
+OK: Bit 7 fuer                      Test4_0x55: tx=1 @ time 12591000
+OK: Bit 8 fuer                      Test4_0x55: tx=0 @ time 12911000
+OK: Bit 9 fuer                      Test4_0x55: tx=1 @ time 13231000
+
+--- Prüfe Frame für                      Test5_0xAA (0xaa) @ time 13370000 ---
+OK: Bit 0 fuer                      Test5_0xAA: tx=0 @ time 13551000
+OK: Bit 1 fuer                      Test5_0xAA: tx=0 @ time 13871000
+OK: Bit 2 fuer                      Test5_0xAA: tx=1 @ time 14191000
+OK: Bit 3 fuer                      Test5_0xAA: tx=0 @ time 14511000
+OK: Bit 4 fuer                      Test5_0xAA: tx=1 @ time 14831000
+OK: Bit 5 fuer                      Test5_0xAA: tx=0 @ time 15151000
+OK: Bit 6 fuer                      Test5_0xAA: tx=1 @ time 15471000
+OK: Bit 7 fuer                      Test5_0xAA: tx=0 @ time 15791000
+OK: Bit 8 fuer                      Test5_0xAA: tx=1 @ time 16111000
+OK: Bit 9 fuer                      Test5_0xAA: tx=1 @ time 16431000
+Simulation fertig @ time 17530000
+$finish called at time : 17530 ns : File "/home/optimus/uni/bachely/bachelor_bauteile/bachelor_bauteile.srcs/sim_1/new/UART_transmit_tb.v" Line 168
+INFO: xsimkernel Simulation Memory Usage: 281128 KB (Peak: 338400 KB), Simulation CPU Usage: 1320 ms

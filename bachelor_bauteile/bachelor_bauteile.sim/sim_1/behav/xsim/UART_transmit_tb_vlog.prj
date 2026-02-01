@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../../../opt/2025.2/data/rsb/busdef" \
+"../../../../bachelor_bauteile.srcs/sources_1/new/UART_transmit.v" \
+"../../../../bachelor_bauteile.srcs/sim_1/new/UART_transmit_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

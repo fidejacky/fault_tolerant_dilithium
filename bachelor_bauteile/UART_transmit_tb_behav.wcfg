@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="UART_transmit_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="UART_transmit_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="702.150 ns"></ZoomStartTime>
+      <ZoomEndTime time="865.751 ns"></ZoomEndTime>
+      <Cursor1Time time="767.550 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="138"></NameColumnWidth>
+      <ValueColumnWidth column_width="69"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wvobject type="logic" fp_name="/UART_transmit_tb/write_en">
+      <obj_property name="ElementShortName">write_en</obj_property>
+      <obj_property name="ObjectShortName">write_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/UART_transmit_tb/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/UART_transmit_tb/clock_en">
+      <obj_property name="ElementShortName">clock_en</obj_property>
+      <obj_property name="ObjectShortName">clock_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/UART_transmit_tb/data_in">
+      <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/UART_transmit_tb/busy">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/UART_transmit_tb/tx">
+      <obj_property name="ElementShortName">tx</obj_property>
+      <obj_property name="ObjectShortName">tx</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/UART_transmit_tb/clock">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/UART_transmit_tb/baud_cnt">
+      <obj_property name="ElementShortName">baud_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">baud_cnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/UART_transmit_tb/BAUD_DIV">
+      <obj_property name="ElementShortName">BAUD_DIV[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BAUD_DIV[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/UART_transmit_tb/dut/index">
+      <obj_property name="ElementShortName">index[2:0]</obj_property>
+      <obj_property name="ObjectShortName">index[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/UART_transmit_tb/dut/state">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/UART_transmit_tb/dut/data">
+      <obj_property name="ElementShortName">data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/UART_transmit_tb/dut/state_idle">
+      <obj_property name="ElementShortName">state_idle[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state_idle[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/UART_transmit_tb/dut/state_start">
+      <obj_property name="ElementShortName">state_start[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state_start[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/UART_transmit_tb/dut/state_data">
+      <obj_property name="ElementShortName">state_data[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state_data[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/UART_transmit_tb/dut/state_stop">
+      <obj_property name="ElementShortName">state_stop[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state_stop[1:0]</obj_property>
+   </wvobject>
+</wave_config>
