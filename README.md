@@ -1,59 +1,72 @@
-Secure Flip-Flop Designs – Vivado Project
+# Secure Flip-Flop Designs – Vivado Project
 
-This repository contains several flip-flop designs and corresponding Vivado projects focusing on full and selective security mechanisms in hardware design. The project also includes simulations, testbenches, and supporting documentation.
-it takes the implementation of dilithium and uses the flipflops majority voter design to ensure security against fault injection 
+This repository contains multiple **flip-flop designs** and corresponding **Vivado projects** that investigate **full** and **selective security mechanisms** in hardware design.  
+The project is based on an implementation of **Dilithium** and applies a **majority-voter flip-flop architecture** to improve resilience against **fault injection attacks**.
 
-Project Structure
-flipflops/
+The repository includes RTL implementations, testbenches, simulation results, and written documentation.
 
-    Contains:
+---
 
-        Flip-flop implementations
+## Project Structure
 
-        Corresponding testbenches for verification
+### `flipflops/`
+Contains:
+- Flip-flop implementations
+- Corresponding testbenches used for functional verification
 
-fully_secure/ ( I have not pushed this yet, this is still running locally)
+---
 
-    Vivado project for the fully secured design
+### `fully_secure/`
+*(Not pushed yet — currently running locally)*
 
-    every single flipflop is secured in this version
+- Vivado project for the **fully secured design**
+- Every flip-flop in the design is protected using the security mechanism
 
-selective_security/
+---
 
-    Vivado project for the selectively secured design
+### `selective_security/`
+- Vivado project for the **selectively secured design**
+- Only specific registers or system states are protected
 
-    Only specific registers or states are protected
+---
 
-TEXTE/
+### `TEXTE/`
+- Collection of notes, background material, and important design explanations
+- Serves as the primary documentation and reference folder for the project
 
-    Collection of all notes, important information, and design explanations
+---
 
-    Serves as the main documentation and reference folder
+## Verilog Source Files
 
-Verilog Source Files
+### `fully_secure.v`
+Verilog implementation of the **fully secured design**.
 
-    fully_secure.v:
-    Verilog implementation of the fully secured version
+---
 
-partly_secure_selective_trm.v:
-    Verilog implementation of the selective security design,
-    where only the final-state registers are protected
+### `partly_secure_selective_trm.v`
+Verilog implementation of the **selective security design**,  
+where only the **final-state registers** are protected.
 
-partly_secure.v:
-    Vivado-generated reference design
-    (exported using write_verilog)
-    The file name will be changed to improve clarity and project overview. but I just let it as it is for the time being 
+---
 
-*Current Status:*
+### `partly_secure.v`
+Vivado-generated reference design  
+(exported using `write_verilog`).
 
-    A simulation of fully_secure.v is currently running locally
+The file name will be changed in the future to improve clarity and overall project structure.  
+For the time being, it is kept unchanged.
 
-    Additional simulations and evaluations are planned
+---
 
-*Notes*
+## Current Status
 
-    The project structure is still evolving
+- A simulation of `fully_secure.v` is currently running locally
+- Additional simulations and evaluations are planned
 
-    File and folder names may be adjusted for better clarity
+---
 
-    All relevant background information can be found in the TEXTE folder
+## Notes
+
+- The project structure is still evolving
+- File and folder names may be adjusted to improve clarity and maintainability
+- All relevant background information and design notes can be found in the `TEXTE` directory
