@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Fri Jan 16 12:23:06 2026
+# Process ID         : 13779
+# Current directory  : /home/optimus/uni/bachely
+# Command line       : vivado
+# Log file           : /home/optimus/uni/bachely/vivado.log
+# Journal file       : /home/optimus/uni/bachely/vivado.jou
+# Running On         : optimus-Yoga-Slim-7-14ITL05
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.3 LTS
+# Processor Detail   : 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+# CPU Frequency      : 1025.741 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 16558 MB
+# Swap memory        : 4294 MB
+# Total Virtual      : 20853 MB
+# Available Virtual  : 18300 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/optimus/uni/bachely/selective_security/selective_security.xpr
+update_compile_order -fileset sources_1
+remove_files  /home/optimus/uni/bachely/partly_secure.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -norecurse /home/optimus/uni/bachely/partly_secure_selective_trm.v
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top combined_top [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse /home/optimus/uni/Dilithium/rtl_tb/tb_sign_top.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1

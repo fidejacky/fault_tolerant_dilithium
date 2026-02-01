@@ -1,0 +1,44 @@
+#wichtigste Frage
+was sind wichtige Final state registers? 
+ich glaube, sie sind: 
+	FSM_sequential_state_reg
+	FSM_sequential_cstate_reg
+	FSM_sequential_cstate1_reg
+	FSM_sequential_cstate2_reg
+	FSM_sequential_cstate_fsm1_reg
+	FSM_onehot_state_reg
+	FSM_onehot_cstate_reg
+
+und vielleicht auch:
+	cstate0_reg
+	sample_state_reg
+	wr_state_reg
+	state_reg
+
+es gibt register die nahe zum Output sind: 
+	fail_reg/ctr_reg/ctr0_reg => beinflußt direkt das output, per definition ein final state register ? 
+# es wird nicht mehr geändert, also sein Wert wird nach außen gegeben 
+# assign data_o[0] = fail_reg_n_0
+# assign data_o[7:1] = ctr_reg_n_0_[6:0];
+# assign ready_i = ctr0_reg_n_0_[0];
+ready_i ist ein Kontrollsignal, steuert wann andere Blöcke senden/lesen 
+sowie bei meinem Beispiel für UART
+
+Kriterium für finale state register: 
+- steuert ein top-level-output oder
+- ein Handshake / Enable / Mode steuert
+=> dann ist es final 
+
+=> kann ein fsm-State sein, oder Zähler oder nur 1 bit breit 
+
+# Frage an Lars
+ABER
+Systemlogik wird nur duch FSM
+outputnahe register sind nur amit man es beobachten kann, also soll ich sie auch schutzen ? 
+
+
+=> in git hochladen 
+
+# jet7tz für die ANmeldung 
+=> Anmeldeformular 
+=> und zum Prüfungsteam und Prüfungsamt 

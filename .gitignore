@@ -1,0 +1,9 @@
+.xil
+xil*
+__pycache__
+.venv
+.env
+.vscode
+fully_secure
+bachelor_bauteile
+selective_security

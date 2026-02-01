@@ -1,0 +1,17 @@
+vivado write_verilog => mamoaka anle ohatra hoe test.v izy dia hita eo hoe ohatrany ahoana ny fahazoany azy 
+ohatran'ny hoe decompilation 
+
+fa mila atao synthesis aloh a, dia ao mahita an#
+ilay instanziierung 
+
+ao amin'y bitstream ihan ykoa afaka hita hoe ilay aiza amin'ilay fpga no ampiasainy hanaovana an'ilay implementierung 
+#
+
+open_project /path/to/your.xpr
+open_run synth_1
+open_run synth_1 -name synth_1
+
+write_verilog -force -file post_synth_netlist.v (meist reicht das hier schon ) 
+
+
+
