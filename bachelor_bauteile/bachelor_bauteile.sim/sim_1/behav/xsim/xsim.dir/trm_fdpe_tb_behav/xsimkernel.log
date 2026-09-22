@@ -1,7 +1,0 @@
-Running: xsim.dir/trm_fdpe_tb_behav/xsimk -simmode gui -wdb trm_fdpe_tb_behav.wdb -simrunnum 0 -socket 33831
-Design successfully loaded
-Design Loading Memory Usage: 199132 KB (Peak: 199188 KB)
-Design Loading CPU Usage: 1270 ms
-Simulation completed
-Simulation Memory Usage: 281388 KB (Peak: 338400 KB)
-Simulation CPU Usage: 1270 ms
